@@ -7,3 +7,10 @@ task:add 2 numbers
 5.display the sum |
 6. stop
 """
+import time
+num1 = int(input( "please pick a number "))
+num2 = int(input("please pick another number ")) 
+time.sleep( 1 )
+print("the answer is ")
+time.sleep( 1 )
+print( num1 + num2 )
